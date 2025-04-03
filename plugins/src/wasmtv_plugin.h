@@ -2,6 +2,7 @@
 
 #include <stdbool.h>
 #include <stdint.h>
+#include <string.h>
 
 #define WASM_EXPORT(n) __attribute__((export_name(n)))
 
