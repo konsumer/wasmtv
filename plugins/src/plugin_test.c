@@ -1,4 +1,4 @@
-// simple memory-tester for host
+// simple tests on host functions
 
 #include "wasmtv_plugin.h"
 

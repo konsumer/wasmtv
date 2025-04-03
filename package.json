@@ -8,7 +8,7 @@
   "scripts": {
     "test": "node --test",
     "tv": "node src/tv.js",
-    "build:plugins": "cd plugins && cmake -B build -G Ninja -D CMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=wasm-toolchain.cmake && cmake --build build"
+    "build:plugins": "cd plugins && cmake -B build -G Ninja -D CMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=cmake/toolchain-wasi.cmake && cmake --build build"
   },
   "dependencies": {
     "cmem_helpers": "^1.0.1",
